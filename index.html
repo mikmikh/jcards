@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TCards</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="turns">
+        <div class="active">⚔️</div>
+        <div>✨</div>
+        <div>⚔️</div>
+        <div>🔮</div>
+        <div>⚔️</div>
+        <div>🐉</div>
+      </section>
+      <section class="battle">
+        <div class="player">Player (HP: 20)</div>
+        <div>⚔️</div>
+        <div class="enemy">Enemy (HP: 20)</div>
+      </section>
+      <section class="message">Default message</section>
+      <section class="action">
+        <div class="action-btn btn">Act</div>
+      </section>
+      <section class="hand grid">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </section>
+      <div>Deck</div>
+      <section class="deck grid grid_large">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+      </section>
+      <div class="modal">
+        <div class="modal__content">
+          <h2>Select Blessing</h2>
+          <div class="blessings grid">
+            <div class="card">✨</div>
+            <div class="card">💚</div>
+            <div class="card">🍀🔥</div>
+          </div>
+          <div class="blessing-btn btn">Select</div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
