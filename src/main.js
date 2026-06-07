@@ -153,7 +153,7 @@ function main() {
   }
   function handleTurnBlessing() {
     if (state.blessingIdx === null) {
-      alert("Select blessing");
+      // alert("Select blessing");
       return;
     }
     modalEl.classList.remove("hide");
@@ -175,7 +175,7 @@ function main() {
   }
   function handleTurnCombat() {
     if (state.turnCardIdx === null) {
-      alert("Select card");
+      // alert("Select card");
       return;
     }
     if (checkRunEnd()) {
